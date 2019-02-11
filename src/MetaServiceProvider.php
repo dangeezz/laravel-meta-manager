@@ -19,14 +19,4 @@ class MetaServiceProvider extends ServiceProvider
             __DIR__.'/config/meta.php' => config_path('meta.php'),
         ]);
     }
-
-    /**
-     * Register the application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        //
-    }
 }
